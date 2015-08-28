@@ -1,9 +1,0 @@
-{
-  "name": "Hello World Add-on",
-  "description": "Hello world add-on",
-  "customizations": [{
-    "filter": ".*",
-    "scripts": ["js/index.js"]
-  }],
-  "role": "addon"
-}

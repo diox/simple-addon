@@ -1,0 +1,11 @@
+{
+    "name": "Hello World Add-on",
+    "description": "Hello world add-on",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "matches": ["app://system.gaiamobile.org/index.html"],
+        "js": ["js/index.js"]
+    }],
+    "version": "0.4",
+    "author": "Mathieu Pillard"
+}
